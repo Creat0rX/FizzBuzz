@@ -1,7 +1,7 @@
 <?php 
-$x = 1;
+$x = 0;
 
-while ($x <= 100)
+while (++$x <= 100)
 {
     if ($x % 3 == 0)
         echo "Fizz";
@@ -10,6 +10,5 @@ while ($x <= 100)
     if ($x % 3 && $x % 5)
         echo $x;
     echo "\n";
-    $x++;
 }
 ?>
